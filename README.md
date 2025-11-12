@@ -121,7 +121,7 @@ print("Cell state shape:", cn.shape)
 GRU adalah **versi lebih sederhana dari LSTM**.
 Ia bekerja hampir sama, tetapi **menggabungkan sistem memori dan hidden state menjadi satu**, sehingga **lebih ringan dan cepat**.
 
-Bayangkan GRU seperti **orang yang punya daya ingat kuat tanpa perlu menulis catatan** — tetap bisa mengingat hal penting tanpa mekanisme yang rumit.
+Bayangkan GRU seperti **orang yang punya daya ingat kuat tanpa perlu menulis catatan** tetap bisa mengingat hal penting tanpa mekanisme yang rumit.
 
 ---
 
