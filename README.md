@@ -12,7 +12,7 @@ Banyak data di dunia nyata berbentuk **urutan (sequence)** seperti:
 * Pergerakan harga saham
 
 Model konvensional seperti **Feed Forward Neural Network (FFNN)** tidak mampu menangkap hubungan antar waktu, karena **setiap input dianggap terpisah**.
-Untuk menangani urutan, kita butuh model yang bisa **mengingat konteks sebelumnya** — inilah alasan lahirnya **Recurrent Neural Network (RNN)** dan turunannya **LSTM** serta **GRU**.
+Untuk menangani urutan, kita butuh model yang bisa **mengingat konteks sebelumnya** inilah alasan lahirnya **Recurrent Neural Network (RNN)** dan turunannya **LSTM** serta **GRU**.
 
 ---
 
@@ -23,7 +23,7 @@ Untuk menangani urutan, kita butuh model yang bisa **mengingat konteks sebelumny
 RNN memproses data **langkah demi langkah** (misalnya kata demi kata).
 Pada setiap langkah, model menyimpan informasi sebelumnya ke dalam **hidden state**, lalu menggunakannya untuk memproses input berikutnya.
 
-Bayangkan seperti **orang yang mendengarkan cerita** — setiap kalimat yang didengar akan memengaruhi pemahaman terhadap kalimat berikutnya.
+Bayangkan seperti **orang yang mendengarkan cerita** setiap kalimat yang didengar akan memengaruhi pemahaman terhadap kalimat berikutnya.
 
 ---
 
